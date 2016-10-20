@@ -23,9 +23,8 @@
 .logo-font.light {
   color: #4a4a4a;
   background: white;
-  padding: 30px;
-  padding-bottom: 15px;
-  margin: 20px 0;
+  padding: 5px;
+  padding-bottom: 0;
 }
 
 .logo-font.dark {
@@ -58,4 +57,23 @@
   font-weight: 300;
   line-height: 1;
   letter-spacing: -1px;
+}
+
+.featurette-content {
+    background: rgba(74,74,74,.4);
+    box-shadow: 0 0 40px 20px rgba(74,74,74,.4);
+    color: white;
+}
+
+#events {
+    background: url("../img/3.png") no-repeat;
+}
+
+#lunchbars {
+    background: url("../img/4.png") no-repeat;
+    background-position-x: right;
+}
+
+#support {
+    background: url("../img/9.png") no-repeat;
 }
