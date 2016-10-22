@@ -1,5 +1,5 @@
 .bg {
-  background: url('../img/1.png') center 80% / cover no-repeat;
+  background: url('../img/7.png') center 80% / cover no-repeat;
   position: fixed;
   width: 100%;
   height: 450px; /*same height as jumbotron */
@@ -16,23 +16,36 @@
   padding: 50px;
 }
 
+.jumbotron h1.logo-font {
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 .logo-font {
   font-family: 'League Spartan';
+}
+
+h1.logo-font {
+    padding: 30px;
+    padding-bottom: 15px;
+    margin: 20px 0;
+}
+
+h2 .logo-font {
+    padding: 5px;
+    padding-bottom: 0;
 }
 
 .logo-font.light {
   color: #4a4a4a;
   background: white;
-  padding: 5px;
-  padding-bottom: 0;
 }
 
 .logo-font.dark {
   color: white;
   background: #4a4a4a;
-  padding: 30px;
-  padding-bottom: 15px;
-  margin: 20px 0;
 }
 
 /* Center align the text within the three columns below the carousel */
@@ -60,20 +73,25 @@
 }
 
 .featurette-content {
-    background: rgba(74,74,74,.4);
-    box-shadow: 0 0 40px 20px rgba(74,74,74,.4);
+    background: rgba(74,74,74,.5);
+    box-shadow: 0 0 40px 20px rgba(74,74,74,.5);
     color: white;
 }
 
-#events {
-    background: url("../img/3.png") no-repeat;
+.featurette-image {
+    background: #4a4a4a;
 }
 
 #lunchbars {
     background: url("../img/4.png") no-repeat;
+}
+
+#events {
+    background: url("../img/11.png") no-repeat;
     background-position-x: right;
 }
 
 #support {
     background: url("../img/9.png") no-repeat;
+    background-size: cover;
 }
